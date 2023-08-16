@@ -1,1 +1,2 @@
 # FCC-World-Cup-Database
+This repository explores the language SQL and Bash and how the 2 can be used together. In particular, I have created a Bash script that enters information from World Cup games into PostgreSQL, and another Bash script that queries the database for useful statistics. The worldcup.sql file contains the relevant database along with its tables. The insert_data.sh file inserts data from the games.csv file into the database which is then queried for useful statistics via the queries.sh file.
